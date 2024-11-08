@@ -1,16 +1,20 @@
 {
   "name": "@netrilis/orchestral-design-token",
-  "version": "0.1.0",
-  "private": "true",
+  "version": "0.0.1",
   "description": "Netrilis Orchestral Design System - Design Token Css Variable",
   "main": "dist/index.css",
-  "files": ["dist", "src"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "bun build:css",
-    "build:css": "postcss src/index.css -o dist/index.css"
+    "build": "bun run build:css",
+    "build:css": "postcss src/index.css -o dist/index.css",
+    "prestart": "bun run build",
+    "start": "chokidar \"/src/**\" -i \"**/dist/**\" -c \"bun run build\""
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "chokidar-cli": "^3.0.0",
     "postcss": "^8.4.47",
     "postcss-cli": "^11.0.0",
     "postcss-css-variables": "^0.19.0",
