@@ -1,2 +1,6 @@
-@import '../src/pallete/ref/index.css';
-@import '../src/pallete/sys/default/index.css';
+@import '../src/ref/color.css';
+@import '../src/ref/shadows.css';
+@import '../src/ref/typeface.css';
+@import '../src/ref/z-indexes.css';
+
+@import '../src/sys/light/index.css';
