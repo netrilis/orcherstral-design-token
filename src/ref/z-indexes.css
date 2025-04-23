@@ -1,0 +1,8 @@
+:root {
+  --od-ref-z-index-tooltip: 100;
+  --od-ref-z-index-popover: 200;
+  --od-ref-z-index-snackbar: 300;
+  --od-ref-z-index-toast: 400;
+  --od-ref-z-index-alert: 500;
+  --od-ref-z-index-modal: 600;
+}

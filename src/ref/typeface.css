@@ -1,0 +1,33 @@
+:root {
+  /** base font family */
+  --od-ref-typeface-family: 'OrchestralSans', sans-serif;
+
+  /** base font height **/
+  --od-ref-typeface-weight-light: 300;
+  --od-ref-typeface-weight-regular: 400;
+  --od-ref-typeface-weight-medium: 500;
+  --od-ref-typeface-weight-semibold: 600;
+  --od-ref-typeface-weight-bold: 700;
+
+  /** base font line height */
+  --od-ref-typeface-lineheight-sm: 16px;
+  --od-ref-typeface-lineheight-md:  20px;
+  --od-ref-typeface-lineheight-lg: 24px;
+  --od-ref-typeface-lineheight-xl: 28px;
+  --od-ref-typeface-lineheight-2xl: 32px;
+  --od-ref-typeface-lineheight-3xl: 36px;
+  --od-ref-typeface-lineheight-4xl: 40px;
+  --od-ref-typeface-lineheight-5xl: 44px;
+
+  /** base font size **/
+  --od-ref-typeface-size-xs: 11px;
+  --od-ref-typeface-size-sm: 12px;
+  --od-ref-typeface-size-md: 14px;
+  --od-ref-typeface-size-lg: 16px;
+  --od-ref-typeface-size-xl: 20px;
+  --od-ref-typeface-size-2xl: 22px;
+  --od-ref-typeface-size-3xl: 24px;
+  --od-ref-typeface-size-4xl: 28px;
+  --od-ref-typeface-size-5xl: 32px;
+  --od-ref-typeface-size-6xl: 36px;
+}

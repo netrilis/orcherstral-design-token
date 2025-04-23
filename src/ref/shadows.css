@@ -1,0 +1,6 @@
+:root {
+  --od-ref-shadow-sm: 0 1px 2px 0 rgb(var(--od-ref-pallete-gray-90) / 10%);
+  --od-ref-shadow-md: 0 2px 4px 0 rgb(var(--od-ref-pallete-gray-90) / 10%);
+  --od-ref-shadow-lg: 0 4px 6px 0 rgb(var(--od-ref-pallete-gray-90) / 10%);
+  --od-ref-shadow-xl: 0 8px 12px -1px rgb(var(--od-ref-pallete-gray-90) / 10%);
+}
