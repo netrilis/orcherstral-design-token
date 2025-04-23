@@ -1,0 +1,19 @@
+:root,
+.orchestral-light {
+  /** background and layer: applicable to large area, not for background or component container */
+  --od-sys-color-background-base: var(--od-ref-color-gray-10);
+  --od-sys-color-background-surface-layer1: var(--od-ref-color-gray-0);
+  --od-sys-color-background-surface-layer2: var(--od-ref-color-gray-0);
+  --od-sys-color-background-surface-layer3: var(--od-ref-color-gray-0);
+
+  /** background roles */
+  --od-sys-color-background-brand: var(--od-ref-color-green-50);
+  --od-sys-color-background-success: var(--od-ref-color-green-10);
+  --od-sys-color-background-successEmphasis: var(--od-ref-color-green-50);
+  --od-sys-color-background-info: var(--od-ref-color-blue-10);
+  --od-sys-color-background-infoEmphasis: var(--od-ref-color-blue-50);
+  --od-sys-color-background-warning: var(--od-ref-color-yellow-10);
+  --od-sys-color-background-warningEmphasis: var(--od-ref-color-yellow-50);
+  --od-sys-color-background-danger: var(--od-ref-color-red-10);
+  --od-sys-color-background-dangerEmphasis: var(--od-ref-color-red-50);
+}

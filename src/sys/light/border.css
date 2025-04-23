@@ -1,0 +1,24 @@
+:root,
+.orchestral-light {
+  /** border radius */
+  --od-sys-border-radius-none: 0px;
+  --od-sys-border-radius-small: 4px;
+  --od-sys-border-radius-medium: 8px;
+  --od-sys-border-radius-large: 12px;
+  --od-sys-border-radius-extraLarge: 18px;
+  --od-sys-border-radius-rounded: 99999px;
+
+  /** border colors */
+  --od-sys-border-subtlest: var(--od-ref-color-gray-10);
+  --od-sys-border-subtle: var(--od-ref-color-gray-20);
+  --od-sys-border-default: var(--od-ref-color-gray-35);
+  --od-sys-border-emphasis: var(--od-ref-color-gray-50);
+  --od-sys-border-success: var(--od-ref-color-green-20);
+  --od-sys-border-successEmphasis: var(--od-ref-color-green-50);
+  --od-sys-border-info: var(--od-ref-color-blue-20);
+  --od-sys-border-infoEmphasis: var(--od-ref-color-blue-50);
+  --od-sys-border-warning: var(--od-ref-color-yellow-20);
+  --od-sys-border-warningEmphasis: var(--od-ref-color-yellow-50);
+  --od-sys-border-danger: var(--od-ref-color-red-20);
+  --od-sys-border-dangerEmphasis: var(--od-ref-color-red-50);
+}

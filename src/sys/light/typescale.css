@@ -1,0 +1,65 @@
+:root,
+.orchestral-light {
+  /** heading's typescales */
+  --od-sys-typescale-heading-6-size: var(--od-ref-typeface-size-xl);
+  --od-sys-typescale-heading-6-lineHeight: var(--od-ref-typeface-lineHeight-lg);
+  --od-sys-typescale-heading-6-letterSpacing: 0.15;
+  --od-sys-typescale-heading-6-weight: var(--od-ref-typeface-weight-medium);
+
+  --od-sys-typescale-heading-5-size: var(--od-ref-typeface-size-2xl);
+  --od-sys-typescale-heading-5-lineHeight: var(--od-ref-typeface-lineHeight-xl);
+  --od-sys-typescale-heading-5-letterSpacing: 0;
+  --od-sys-typescale-heading-5-weight: var(--od-ref-typeface-weight-medium);
+
+  --od-sys-typescale-heading-4-size: var(--od-ref-typeface-size-3xl);
+  --od-sys-typescale-heading-4-lineHeight: var(--od-ref-typeface-lineHeight-2xl);
+  --od-sys-typescale-heading-4-letterSpacing: 0;
+  --od-sys-typescale-heading-4-weight: var(--od-ref-typeface-weight-medium);
+
+  --od-sys-typescale-heading-3-size: var(--od-ref-typeface-size-4xl);
+  --od-sys-typescale-heading-3-lineHeight: var(--od-ref-typeface-lineHeight-3xl);
+  --od-sys-typescale-heading-3-letterSpacing: 0;
+  --od-sys-typescale-heading-3-weight: var(--od-ref-typeface-weight-medium);
+
+  --od-sys-typescale-heading-2-size: var(--od-ref-typeface-size-5xl);
+  --od-sys-typescale-heading-2-lineHeight: var(--od-ref-typeface-lineHeight-4xl);
+  --od-sys-typescale-heading-2-letterSpacing: 0;
+  --od-sys-typescale-heading-2-weight: var(--od-ref-typeface-weight-medium);
+  
+  --od-sys-typescale-heading-1-size: var(--od-ref-typeface-size-6xl);
+  --od-sys-typescale-heading-1-lineHeight: var(--od-ref-typeface-lineHeight-5xl);
+  --od-sys-typescale-heading-1-letterSpacing: 0;
+  --od-sys-typescale-heading-1-weight: var(--od-ref-typeface-weight-medium);
+
+  /** body's typescales */
+  --od-sys-typescale-body-small-size: var(--od-ref-typeface-size-sm);
+  --od-sys-typescale-body-small-lineHeight: var(--od-ref-typeface-lineHeight-sm);
+  --od-sys-typescale-body-small-letterSpacing: 0.4;
+  --od-sys-typescale-body-small-weight: var(--od-ref-typeface-weight-regular);
+
+  --od-sys-typescale-body-medium-size: var(--od-ref-typeface-size-md);
+  --od-sys-typescale-body-medium-lineHeight: var(--od-ref-typeface-lineHeight-md);
+  --od-sys-typescale-body-medium-letterSpacing: 0.25;
+  --od-sys-typescale-body-medium-weight: var(--od-ref-typeface-weight-regular);
+
+  --od-sys-typescale-body-large-size: var(--od-ref-typeface-size-lg);
+  --od-sys-typescale-body-large-lineHeight: var(--od-ref-typeface-lineHeight-lg);
+  --od-sys-typescale-body-large-letterSpacing: 0.5;
+  --od-sys-typescale-body-large-weight: var(--od-ref-typeface-weight-regular);
+
+  /** label's typescales */
+  --od-sys-typescale-label-small-size: var(--od-ref-typeface-size-xs);
+  --od-sys-typescale-label-small-lineHeight: var(--od-ref-typeface-lineHeight-sm);
+  --od-sys-typescale-label-small-letterSpacing: 0.5;
+  --od-sys-typescale-label-small-weight: var(--od-ref-typeface-weight-regular);
+
+  --od-sys-typescale-label-medium-size: var(--od-ref-typeface-size-md);
+  --od-sys-typescale-label-medium-lineHeight: var(--od-ref-typeface-lineHeight-sm);
+  --od-sys-typescale-label-medium-letterSpacing: 0.5;
+  --od-sys-typescale-label-medium-weight: var(--od-ref-typeface-weight-regular);
+
+  --od-sys-typescale-label-large-size: var(--od-ref-typeface-size-lg);
+  --od-sys-typescale-label-large-lineHeight: var(--od-ref-typeface-lineHeight-sm);
+  --od-sys-typescale-label-large-letterSpacing: 0.5;
+  --od-sys-typescale-label-large-weight: var(--od-ref-typeface-weight-regular);
+}

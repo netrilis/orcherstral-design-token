@@ -1,0 +1,21 @@
+:root,
+.orchestral-light {
+  /** applicable for text or icon color */
+  --od-sys-color-foreground-base: var(--od-ref-color-base-black);
+  --od-sys-color-foreground-subtle: var(--od-ref-color-gray-50);
+  --od-sys-color-foreground-muted: var(--od-ref-color-gray-10);
+
+  /** foreground links */
+  --od-sys-color-foreground-link: var(--od-ref-color-blue-50);
+  --od-sys-color-foreground-linkEmphasis: var(--od-ref-color-blue-20);
+
+  /** foreground roles */
+  --od-sys-color-foreground-success: var(--od-ref-color-green-50);
+  --od-sys-color-foreground-successEmphasis: var(--od-ref-color-green-30);
+  --od-sys-color-foreground-info: var(--od-ref-color-blue-50);
+  --od-sys-color-foreground-infoEmphasis: var(--od-ref-color-blue-30);
+  --od-sys-color-foreground-warning: var(--od-ref-color-yellow-50);
+  --od-sys-color-foreground-warningEmphasis: var(--od-ref-color-yellow-30);
+  --od-sys-color-foreground-danger: var(--od-ref-color-red-50);
+  --od-sys-color-foreground-dangerEmphasis: var(--od-ref-color-red-30);
+}
