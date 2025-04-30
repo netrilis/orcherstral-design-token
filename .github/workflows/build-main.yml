@@ -30,7 +30,7 @@ jobs:
         with:
           path: '~/.bun/install/cache'
           key: ${{ runner.os }}-modules-${{ hashFiles('**/bun.lockb') }}
-          restore-key: |
+          restore-keys: |
             ${{ runner.os }}-bun-
 
       - name: Setup Bun
