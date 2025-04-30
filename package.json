@@ -1,7 +1,11 @@
 {
-  "name": "@netrilis/orchestral-design-token",
+  "name": "orchestral/css-design-token",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netrilis/orcherstral-design-token.git"
+  },
   "version": "0.0.1",
-  "description": "Netrilis Orchestral Design System - Design Token Css Variable",
+  "description": "Orchestral Design System - Design Token Css Variable",
   "main": "dist/index.css",
   "files": [
     "dist"
