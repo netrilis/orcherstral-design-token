@@ -1,35 +1,35 @@
 :root,
 .orchestral-light {
   /** heading's typescales */
-  --od-sys-typescale-heading-6-size: var(--od-ref-typeface-size-xl);
-  --od-sys-typescale-heading-6-lineHeight: var(--od-ref-typeface-lineHeight-lg);
-  --od-sys-typescale-heading-6-letterSpacing: 0.15;
-  --od-sys-typescale-heading-6-weight: var(--od-ref-typeface-weight-medium);
+  --od-sys-typescale-heading-6-size: var(--od-ref-typeface-size-lg);
+  --od-sys-typescale-heading-6-lineHeight: 130%;
+  --od-sys-typescale-heading-6-letterSpacing: 0;
+  --od-sys-typescale-heading-6-weight: var(--od-ref-typeface-weight-semibold);
 
   --od-sys-typescale-heading-5-size: var(--od-ref-typeface-size-2xl);
-  --od-sys-typescale-heading-5-lineHeight: var(--od-ref-typeface-lineHeight-xl);
+  --od-sys-typescale-heading-5-lineHeight: 130%;
   --od-sys-typescale-heading-5-letterSpacing: 0;
-  --od-sys-typescale-heading-5-weight: var(--od-ref-typeface-weight-medium);
+  --od-sys-typescale-heading-5-weight: var(--od-ref-typeface-weight-semibold);
 
   --od-sys-typescale-heading-4-size: var(--od-ref-typeface-size-3xl);
-  --od-sys-typescale-heading-4-lineHeight: var(--od-ref-typeface-lineHeight-2xl);
+  --od-sys-typescale-heading-4-lineHeight: 130%;
   --od-sys-typescale-heading-4-letterSpacing: 0;
-  --od-sys-typescale-heading-4-weight: var(--od-ref-typeface-weight-medium);
+  --od-sys-typescale-heading-4-weight: var(--od-ref-typeface-weight-semibold);
 
   --od-sys-typescale-heading-3-size: var(--od-ref-typeface-size-4xl);
-  --od-sys-typescale-heading-3-lineHeight: var(--od-ref-typeface-lineHeight-3xl);
+  --od-sys-typescale-heading-3-lineHeight: 130%;
   --od-sys-typescale-heading-3-letterSpacing: 0;
-  --od-sys-typescale-heading-3-weight: var(--od-ref-typeface-weight-medium);
+  --od-sys-typescale-heading-3-weight: var(--od-ref-typeface-weight-semibold);
 
-  --od-sys-typescale-heading-2-size: var(--od-ref-typeface-size-5xl);
-  --od-sys-typescale-heading-2-lineHeight: var(--od-ref-typeface-lineHeight-4xl);
+  --od-sys-typescale-heading-2-size: var(--od-ref-typeface-size-6xl);
+  --od-sys-typescale-heading-2-lineHeight: 130%;
   --od-sys-typescale-heading-2-letterSpacing: 0;
-  --od-sys-typescale-heading-2-weight: var(--od-ref-typeface-weight-medium);
+  --od-sys-typescale-heading-2-weight: var(--od-ref-typeface-weight-semibold);
   
-  --od-sys-typescale-heading-1-size: var(--od-ref-typeface-size-6xl);
-  --od-sys-typescale-heading-1-lineHeight: var(--od-ref-typeface-lineHeight-5xl);
+  --od-sys-typescale-heading-1-size: var(--od-ref-typeface-size-7xl);
+  --od-sys-typescale-heading-1-lineHeight: 130%;
   --od-sys-typescale-heading-1-letterSpacing: 0;
-  --od-sys-typescale-heading-1-weight: var(--od-ref-typeface-weight-medium);
+  --od-sys-typescale-heading-1-weight: var(--od-ref-typeface-weight-semibold);
 
   /** body's typescales */
   --od-sys-typescale-body-small-size: var(--od-ref-typeface-size-sm);
