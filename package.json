@@ -14,10 +14,12 @@
     "build": "bun run build:css",
     "build:css": "postcss src/index.css -o dist/index.css",
     "prestart": "bun run build",
-    "start": "chokidar \"/src/**\" -i \"**/dist/**\" -c \"bun run build\""
+    "start": "chokidar \"/src/**\" -i \"**/dist/**\" -c \"bun run build\"",
+    "prerelease-alpha": "bumpp prerelease --preid alpha"
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "bumpp": "^10.1.1",
     "chokidar-cli": "^3.0.0",
     "postcss": "^8.4.47",
     "postcss-cli": "^11.0.0",

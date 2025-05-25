@@ -20,6 +20,7 @@
   --od-ref-typeface-lineheight-5xl: 44px;
 
   /** base font size **/
+  --od-ref-typeface-size-tiny: 10px;
   --od-ref-typeface-size-xs: 11px;
   --od-ref-typeface-size-sm: 12px;
   --od-ref-typeface-size-md: 14px;
@@ -30,4 +31,5 @@
   --od-ref-typeface-size-4xl: 28px;
   --od-ref-typeface-size-5xl: 32px;
   --od-ref-typeface-size-6xl: 36px;
+  --od-ref-typeface-size-7xl: 42px;
 }
